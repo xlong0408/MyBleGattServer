@@ -85,8 +85,6 @@ public class MainActivity extends AppCompatActivity {
                 default:
                     // Do nothing
             }
-            if (intent.getAction().equals(WifiManager.NETWORK_STATE_CHANGED_ACTION)) {
-            }
 
         }
     };
